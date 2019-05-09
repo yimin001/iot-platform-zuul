@@ -1,0 +1,20 @@
+#server:
+#  port: 8888
+#spring:
+#  application:
+#    name: iot-platform-zuul
+#  profiles:
+#    active: db
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8762/eureka
+#zuul:
+#  prefix: /api
+#  routes:
+#    platformLocation:
+#      path: /platformLocation/**
+#      service-id: iot-platform-location-server
+#    oauth2:
+#      path: /oauth2/**
+#      service-id: iot-platform-oauth2
